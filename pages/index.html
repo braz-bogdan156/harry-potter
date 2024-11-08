@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+</head>
+<body>
+        <main>
+            <h1 class="main__title">ЛАСКАВО ПРОСИМО <br>
+                У СВІТ ГАРРІ ПОТТЕРА</h1>
+                <section class="button-container">
+                <button class="main__button" onclick="showImages()" >Показати всіх персонажів</button>
+                </section>
+                <section id="characters-card" >
+                    <article class="character-cards-group">
+                    <article class="character-item">
+                        <img src="../images/students.svg" alt="Students" class="character-image">
+                        <button class="character-item__button"  onclick="redirectToPage('../pages/students.html')">Студенти Хоґвартсу</button>
+                    </article>
+                    <article class="character-item">
+                        <img src="../images/colleague.svg" alt="Colleagues" class="character-image">
+                        <button class="character-item__button"  onclick="redirectToPage('../pages/colleagues.html')">Співробітники Хоґвартсу</button>
+                    </article>
+                    <article class="character-item">
+                        <img src="../images/characters-in-this-house.svg" alt="Characters-in-this-house" class="character-image">
+                        <button class="character-item__button" onclick="redirectToPage('../pages/characters-in-this-house.html')">Персонажі в певному будинку</button>
+                    </article>
+                </article>
+                </section>
+        </main>
+        <script src="../functions/index.js"></script>
+</body>
+</html>

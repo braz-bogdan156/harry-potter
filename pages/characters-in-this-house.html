@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters-in-this-house</title>
+    <link rel="stylesheet" href="../styles/characters-in-this-house.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+</head>
+<body>
+    <main>
+        <section >
+            <h1 class="main__title-characters-in-this-house">Персонажі в <br> певному будинку</h1>
+        </section>
+        <header class="main__header-characters-in-this-house">
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item active" onclick="fetchAllCharacters('Gryffindor')">
+                        <span class="nav-item__span">
+                        <img src="../images/gryffindor.svg" alt="gryffindor">
+                        <a href="#" class="nav-item__paragraph">Gryffindor</a>
+                    </span></li>
+                    <li class="header__nav-item" onclick="fetchAllCharacters('Slytherin')">
+                        <span class="nav-item__span">
+                            <img src="../images/slytherin.svg" alt="slytherin">
+                            <a href="#" class="nav-item__paragraph">Slytherin</a>
+                        </span></li>
+                    </li>
+                    <li class="header__nav-item" onclick="fetchAllCharacters('Ravenclaw')">
+                        <span class="nav-item__span">
+                            <img src="../images/ravenclaw.svg" alt="ravenclaw">
+                            <a href="#" class="nav-item__paragraph">Ravenclaw</a>
+                        </span></li>
+                    </li>
+                    <li class="header__nav-item" onclick="fetchAllCharacters('Hufflepuff')">
+                        <span class="nav-item__span">
+                            <img src="../images/hufflepuff.svg" alt="hufflepuff">
+                            <a href="#" class="nav-item__paragraph">Hufflepuff</a>
+                        </span></li>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="main__characters-in-this-house-cards">
+            <section id="characters"></section>
+        </section>
+    </main>
+    <script src="../functions/characters-in-this-house.js"></script>
+    
+</body>
+</html>

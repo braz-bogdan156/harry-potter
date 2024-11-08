@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ ol li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ }
+
+ a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@font-face {
+    font-family: 'Bluu Next Cyrillic';
+    src: url('../fonts/BluuNextCyrillic-Bold\ 700.otf') format('truetype');
+
+}
+
+:root {
+    --font-family: "Inter", sans-serif;  /*даний шрифт за замовчуванням,тому його я не підключав  */
+    --second-family: "Bluu Next Cyrillic", sans-serif;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+  }
