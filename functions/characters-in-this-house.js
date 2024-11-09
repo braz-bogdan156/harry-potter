@@ -45,6 +45,7 @@ function displayAllCharacters(characters) {
                 </figure>
             `;
             charactersContainer.appendChild(characterItem);
+            
                 }
             });
     } else {
