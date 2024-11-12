@@ -53,4 +53,4 @@ function displayAllCharacters(characters) {
     }
 }
 
-document.addEventListener('DOMContentLoaded', fetchAllCharacters);
+document.addEventListener('DOMContentLoaded', ()=> {fetchAllCharacters('Gryffindor')});
