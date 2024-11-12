@@ -3,7 +3,9 @@
 
 body {
     background-image: url(../images/main.svg);
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     display: flex;
     justify-content: center;
     max-width: 100%;
@@ -87,3 +89,13 @@ body {
     .flex {
         display: flex;
     }
+    .character-item{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 400px;
+    }
+    
